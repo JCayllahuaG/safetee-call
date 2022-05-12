@@ -1,0 +1,69 @@
+{
+  "urgencies": [
+    {
+      "id": 1,
+      "title": "urgen1",
+      "summary": "summ1",
+      "latitude": 1234,
+      "longitude": 12345,
+      "reportedAt": "12/05/03",
+      "guardianId": "1"
+    },
+    {
+      "id": 2,
+      "title": "urgen1",
+      "summary": "summ2",
+      "latitude": 12345,
+      "longitude": 123456,
+      "reportedAt": "13/08/03",
+      "guardianId": "1"
+    },
+    {
+      "id": 3,
+      "title": "urgen2",
+      "summary": "summ2",
+      "latitude": 1234,
+      "longitude": 12345,
+      "reportedAt": "12/05/03",
+      "guardianId": "2"
+    },
+    {
+      "id": 4,
+      "title": "urgen2",
+      "summary": "summ1",
+      "latitude": 1234,
+      "longitude": 12345,
+      "reportedAt": "12/05/03",
+      "guardianId": "2"
+    }
+  ],
+  "guardians":[
+    {
+      "id": 1,
+      "username": "User 1",
+      "email": "abc@gmail.com",
+      "firstName": "Jose",
+      "lastName": "Torres",
+      "gender": "male",
+      "address": "Lima"
+    },
+    {
+      "id": 2,
+      "username": "User 2",
+      "email": "acb@gmail.com",
+      "firstName": "Luisa",
+      "lastName": "Palacios",
+      "gender": "female",
+      "address": "Arequipa"
+    },
+    {
+      "id":3,
+      "username": "User 3",
+      "email": "adb@gmail.com",
+      "firstName": "Kalid",
+      "lastName": "Jauregui",
+      "gender": "male",
+      "address": "Ayacucho"
+    }
+  ]
+}
