@@ -5,8 +5,7 @@ export default {
       drawer: false,
       items: [
         { label: "Home", to: "/home" },
-        { label: "About", to: "/about" },
-        { label: "Guardians", to: "/guardians" },
+        { label: "Urgencies", to: "/urgencies"}
       ],
     };
   },
@@ -24,6 +23,7 @@ export default {
           @click="drawer = !drawer"
         />
         <h3>SafeTee Call</h3>
+
       </template>
       <template #end>
         <div class="flex-column">
